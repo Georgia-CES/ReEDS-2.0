@@ -1,10 +1,10 @@
-,Default Value,SERCSE_test,SERCSE_hourly,EI_RUN
-ignore,1,0,,
-endyear,2030,,,2044
-GSw_Region,nercr/SERC_SE,,,interconnect/eastern
-GSw_HourlyChunkLengthRep,,,1,
-GSw_RegionResolution,,,,
-GSw_HierarchyFile,,,,
-GSw_GasCurve,2,,,
-yearset_suffix,5yr,,,biennial
-GSw_HourlyType,,,year,
+,Default Value,bas,states,SERCSE_test,SERCSE_hourly,SERTP,transregs,EI_RUN
+ignore,1,,,0,,,,
+endyear,2030,,,,,,,2044
+GSw_Region,,ba/p88.p89.p90.p94,st/GA.AL.MS,nercr/SERC_SE,nercr/SERC_SE,transreg/SERTP,transreg/MISO.SERTP.FRCC.PJM,interconnect/eastern
+GSw_HourlyChunkLengthRep,,,,,1,,,
+GSw_RegionResolution,,,,,,,,
+GSw_HierarchyFile,,,,,,,,
+GSw_GasCurve,2,,,,,,,
+yearset_suffix,5yr,,,,,,,biennial
+GSw_HourlyType,,,,,year,,,
