@@ -16,7 +16,7 @@ static_presets = [
     {'name': 'Generation (TWh) SoCo', 'sheet_name':'gen_soco', 'result': 'Generation BA (TWh)', 'preset': 'Stacked Bars', 'config':{'filter':{'rb':southern_co_bas}}},
     {'name': 'Capacity (GW) SoCo', 'sheet_name':'cap_soco', 'result': 'Capacity BA (GW)', 'preset': 'Stacked Bars', 'config':{'filter':{'rb':southern_co_bas}}},
     {'name': 'Bulk System Electricity Price ($/MWh) SoCo', 'sheet_name':'elec_price_soco', 'result': 'Requirement Prices and Quantities BA', 'preset': 'Bulk System Electricity Price ($/MWh)', 'config':{'filter':{'rb':southern_co_bas}}},
-    {'name': 'Present Value of System Cost through 2050 (Bil $) SoCo', 'sheet_name':'sys_cost_soco', 'result': 'Sys Cost Annualized BA/State (Bil $)', 'preset': 'Undiscounted by Year - BA', 'config':{'filter':{'rb':southern_co_bas}}},
+    {'name': 'Present Value of System Cost through 2050 (Bil $) SoCo', 'sheet_name':'sys_cost_soco', 'result': 'Sys Cost Annualized BA/State (Bil $)', 'preset': 'Undiscounted by Year - BA', 'config':{'filter':{'r':southern_co_bas}}},
     {'name': 'CO2 Emissions (metric tons) SoCo', 'sheet_name':'emissions_soco', 'result': 'CO2 Emissions BA (metric tons)', 'preset': 'Scenario Lines Over Time', 'config':{'filter':{'rb':southern_co_bas}}},
 
     #Georgia
