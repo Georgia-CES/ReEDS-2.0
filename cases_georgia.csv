@@ -1,6 +1,6 @@
 ,Default Value,bas,states,SERCSE_test,SERCSE_hourly,SERTP,SERTP_highload,transregs,EI_RUN
 ignore,1,,,,,,0,,
-endyear,2045,,,,,,,,2044
+endyear,2045,,,,,,,,
 GSw_Region,,ba/p88.p89.p90.p94,st/GA.AL.MS,nercr/SERC_SE,nercr/SERC_SE,transreg/SERTP,transreg/SERTP,transreg/MISO.SERTP.FRCC.PJM,interconnect/eastern
 GSw_HourlyChunkLengthRep,,,,,1,,,,
 GSw_RegionResolution,,,,,,,,,
@@ -8,6 +8,9 @@ GSw_HierarchyFile,,,,,,,,,
 GSw_EFS1_AllYearLoad,,,,,,,EER_100by2050,,
 GSw_TCPhaseout,0,,,,,,,,
 GSw_GasCurve,2,,,,,,,,
-yearset_suffix,5yr,,,,,,,,biennial
+onswindscen,ons-wind_ATB_2024_conservative,,,,,,,,
+GSw_SitingWindOns,limited,,,,,,,,
+batteryscen,battery_ATB_2024_moderate,,,,,,,,
+yearset_suffix,5yr,,,,,,,,
 GSw_HourlyType,,,,,year,,,,
 GSw_HourlyClusterAlgorithm,optimized,,,,,,,,
